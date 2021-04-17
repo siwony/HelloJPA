@@ -26,7 +26,6 @@ public class BasicMappingMain {
 
             em.persist(orderItem);
 
-
             tx.commit();
         }catch (Exception e){
             tx.rollback();
