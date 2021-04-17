@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 public class Order {
 
     @Id @GeneratedValue
-    @Column(name = "ORDER_ID")
+    @Column(name = "ORDE_ID")
     private Long id;
 
     private Long memberId;
