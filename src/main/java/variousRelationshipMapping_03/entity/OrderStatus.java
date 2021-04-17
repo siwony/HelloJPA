@@ -1,4 +1,4 @@
-package dbDrivenDesign_01.entity;
+package variousRelationshipMapping_03.entity;
 
 public enum OrderStatus {
     ORDER, CANCEL

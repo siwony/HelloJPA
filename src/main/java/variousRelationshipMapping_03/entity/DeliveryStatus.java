@@ -1,2 +1,5 @@
-package variousRelationshipMapping_03.entity;public class DeliveryStatus {
+package variousRelationshipMapping_03.entity;
+
+public enum DeliveryStatus {
+
 }
