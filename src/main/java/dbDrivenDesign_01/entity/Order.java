@@ -1,9 +1,13 @@
-package helloJpa.entity;
+package dbDrivenDesign_01.entity;
+
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
+@Getter @Setter
 @Table(name = "ORDERS") // DB에서 안될때도 있고 될때도 있어서 바
 public class Order {
 

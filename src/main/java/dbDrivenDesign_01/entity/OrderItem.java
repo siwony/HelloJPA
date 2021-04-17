@@ -1,4 +1,4 @@
-package helloJpa.entity;
+package dbDrivenDesign_01.entity;
 
 import lombok.Getter;
 import lombok.Setter;

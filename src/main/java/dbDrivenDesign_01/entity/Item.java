@@ -1,8 +1,6 @@
-package helloJpa.entity;
+package dbDrivenDesign_01.entity;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Column;
@@ -12,15 +10,15 @@ import javax.persistence.Id;
 
 @Entity
 @Getter @Setter
-public class Member {
+public class Item {
 
     @Id @GeneratedValue
-    @Column(name = "MEMBER_ID")
+    @Column(name = "ITEM_ID")
     private Long id;
+
     private String name;
-    private String city;
-    private String street;
-    private String zipcode;
+    private int price;
+    private int stockQuantity;
 
 
 }
