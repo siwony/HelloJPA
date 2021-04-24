@@ -1,24 +1,19 @@
-package dbDrivenDesign_01.entity;
+package helloJPA.entity;
 
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
 @Getter @Setter
-public class Item {
+public class Member {
 
-    @Id @GeneratedValue
-    @Column(name = "ITEM_ID")
+    @Id
     private Long id;
 
+    @Column(name = "USERNAME")
     private String name;
-    private int price;
-    private int stockQuantity;
-
-
 }
