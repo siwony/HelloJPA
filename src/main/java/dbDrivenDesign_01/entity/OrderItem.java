@@ -22,7 +22,7 @@ public class OrderItem {
     @Column(name = "ITEM_ID")
     private Long itemId;
 
-    private int order;
+    private int orderPrice;
     private int count;
 
 }

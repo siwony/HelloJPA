@@ -12,9 +12,10 @@ import java.time.LocalDateTime;
 public class Order {
 
     @Id @GeneratedValue
-    @Column(name = "ORDE_ID")
+    @Column(name = "ORDER_ID")
     private Long id;
 
+    @Column(name = "MEMBER_ID")
     private Long memberId;
 
     private LocalDateTime orderDate; // spring boot 는 DB에 order_date라고 매핑된다.
