@@ -1,4 +1,4 @@
-package valueTypeMapping_05.entity;
+package valueTypeMapping_06.entity;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

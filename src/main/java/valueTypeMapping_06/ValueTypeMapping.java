@@ -1,4 +1,4 @@
-import valueTypeMapping_05.entity.Book;
+package valueTypeMapping_06;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

@@ -1,7 +1,6 @@
-package valueTypeMapping_05.entity;
+package valueTypeMapping_06.entity;
 
 import lombok.Getter;
-import lombok.Setter;
 
 import javax.persistence.Embeddable;
 import java.util.Objects;
