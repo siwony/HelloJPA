@@ -15,9 +15,9 @@ public class Member extends BaseEntity{
     @Column(name = "MEMBER_ID")
     private Long id;
     private String name;
-
-    @Embedded
-    private Address address;
+    private String city;
+    private String street;
+    private String zipcode;
 
     @OneToMany(mappedBy = "member")
     List<Order> order = new ArrayList<>();

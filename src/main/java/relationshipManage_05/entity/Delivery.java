@@ -12,9 +12,9 @@ public class Delivery extends BaseEntity{
     @Id @GeneratedValue
     private Long id;
 
-    @Embedded
-    private Address address;
-
+    private String name;
+    private String city;
+    private String street;
     private DeliveryStatus deliveryStatus;
 
     @OneToOne(mappedBy = "delivery")
