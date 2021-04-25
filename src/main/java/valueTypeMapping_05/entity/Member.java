@@ -1,4 +1,4 @@
-package inheritMapping_04.entity;
+package valueTypeMapping_05.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,9 +15,9 @@ public class Member extends BaseEntity{
     @Column(name = "MEMBER_ID")
     private Long id;
     private String name;
-    private String city;
-    private String street;
-    private String zipcode;
+
+    @Embedded
+    private Address address;
 
     @OneToMany(mappedBy = "member")
     List<Order> order = new ArrayList<>();
