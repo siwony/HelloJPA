@@ -25,4 +25,4 @@ siwony/TIL 과 연관이 있는 repo 입니다. [링크](https://github.com/siwo
 3. [다양한 연관관계 매핑](https://github.com/siwony/HelloJPA/tree/variousRelationshipMapping_03)
 4. [상속관계 매핑](https://github.com/siwony/HelloJPA/tree/inheritMapping_04)
 5. [연관관계 관리]()
-6. [값 타입 매핑]()
+6. [값 타입 매핑](https://github.com/siwony/HelloJPA/tree/valueTypeMapping_06)
